@@ -14,4 +14,6 @@ Safari
 IntelliJ
 Skype
 JoinMe
+SourceTree
+TextMate
 
