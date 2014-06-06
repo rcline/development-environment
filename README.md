@@ -17,3 +17,11 @@ JoinMe
 SourceTree
 TextMate
 
+chruby: brew install chruby ruby-install
+ruby: ruby-install ruby
+
+
+% source $(brew --prefix chruby)/share/chruby/chruby.sh
+% chruby 2
+npm
+node
