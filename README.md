@@ -25,3 +25,15 @@ ruby: ruby-install ruby
 % chruby 2
 npm
 node
+
+grunt: % npm install --global grunt-cli
+
+compass: % gem install compass
+% gem install scss-lint
+
+zsh:
+zprezto
+powerline zsh
+tmux
+
+Apache:
