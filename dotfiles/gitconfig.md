@@ -1,15 +1,13 @@
 [user]
 	name = Ryan Cline
-	email = ryan.cline@twcable.com
+	email = ryan.cline@gmail.com
 
 [credential]
-   # helper = osxkeychain
 	helper = osxkeychain
 
 [github]
 
 [gh]
-
 
 [core]
 	excludesfile = /Users/RCline-MRPro/.gitignore_global
@@ -25,15 +23,8 @@
 	trustExitCode = true
 
 [alias]
-	# lb = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --max-count 10
-	# lba = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-	# lbn = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --max-count
-	# l = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --max-count 10
-	# la = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-	# ln = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --max-count
 	type = cat-file -t
 	dump = cat-file -p
-
 
 	lba = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	lbn = !git lba --max-count
