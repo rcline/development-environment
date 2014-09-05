@@ -19,6 +19,14 @@
 - Show Path Bar
 - Show Status Bar
 
+###### Settings
+- Show View Options
+  + Always open in column view
+- Show dotfiles
+```
+defaults write com.apple.finder AppleShowAllFiles TRUE
+killall Finder
+```
 
 ### Applications
 - Browsers
