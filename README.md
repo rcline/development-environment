@@ -55,15 +55,17 @@ Steps 1-4: https://github.com/wilmoore/system
 - restart apache `sudo /usr/sbin/apachectl restart`
 
 ### Brew Install
-- npm
-- node
-- phantomjs
-- python
+```
+% brew install npm
+% brew install node
+% brew install phantomjs
+% brew install python
+% brew install chruby ruby-install
+```
 
 ### Ruby
-- Follow [ruby.md](https://github.com/rcline/development-environment/blob/master/ruby.md)
-- compass
 ```
+% ruby-install ruby
 % gem install compass
 % gem install scss-lint
 ```
