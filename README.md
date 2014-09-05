@@ -40,9 +40,10 @@
 Steps 1-4: https://github.com/wilmoore/system
 
 ### dotfiles
-- Copy over dotfiles
-- Copy Apache httpd.conf
 - Create folder `Sites` in home directory for server
+- Clone this repo
+- Copy over [dotfiles](https://github.com/rcline/development-environment/tree/master/dotfiles)
+- Copy Apache [httpd.conf.md](https://github.com/rcline/development-environment/blob/master/apache/httpd.conf.md) code
 
 ### Brew Install
 - npm
