@@ -12,13 +12,6 @@ DocumentRoot "/Users/RCline-MRPro/Sites"
 
 ```conf
 #
-# Note that from this point forward you must specifically allow
-# particular features to be enabled - so if something's not working as
-# you might expect, make sure that you have specifically enabled it
-# below.
-#
-
-#
 # This should be changed to whatever you set DocumentRoot to.
 #
 #<Directory "/Library/WebServer/Documents">
