@@ -37,7 +37,12 @@
 
 
 ### XCode and HomeBrew
-https://github.com/wilmoore/system
+Steps 1-4: https://github.com/wilmoore/system
+
+### dotfiles
+- Copy over dotfiles
+- Copy Apache httpd.conf
+- Create folder `Sites` in home directory for server
 
 ### Brew Install
 - npm
@@ -45,17 +50,16 @@ https://github.com/wilmoore/system
 - phantomjs
 - python
 
-### Grunt
-
-grunt: % npm install --global grunt-cli
-
 ### Ruby
 compass: % gem install compass
 % gem install scss-lint
 
-zsh:
-zprezto
-powerline zsh
-tmux
+### Grunt
+grunt: % npm install --global grunt-cli
 
-### Apache
+
+### TODO:
+zsh:
+- zprezto
+- powerline zsh
+- tmux
