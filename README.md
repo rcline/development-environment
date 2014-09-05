@@ -51,7 +51,7 @@ Steps 1-4: https://github.com/wilmoore/system
 - Create folder `Sites` in home directory for server
 - Clone this repo
 - Copy over [dotfiles](https://github.com/rcline/development-environment/tree/master/dotfiles)
-- Copy Apache [httpd.conf.md](https://github.com/rcline/development-environment/blob/master/apache/httpd.conf.md) code
+- Copy Apache [httpd.conf.md](https://github.com/rcline/development-environment/blob/master/apache/httpd.conf.md) code into /etc/apache2/httpd.conf
 
 ### Brew Install
 - npm
@@ -60,12 +60,17 @@ Steps 1-4: https://github.com/wilmoore/system
 - python
 
 ### Ruby
-compass: % gem install compass
+- Follow [ruby.md](https://github.com/rcline/development-environment/blob/master/ruby.md)
+- compass
+```
+% gem install compass
 % gem install scss-lint
+```
 
-### Grunt
-grunt: % npm install --global grunt-cli
-
+### Grunt CLI
+```
+% npm install --global grunt-cli
+```
 
 ### TODO:
 zsh:
