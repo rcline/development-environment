@@ -6,7 +6,7 @@
 #
 #DocumentRoot "/Library/WebServer/Documents"
 # TODO(rcline):
-DocumentRoot "/Users/RCline-MRPro/Sites"
+DocumentRoot "/Users/RCline/Sites"
 ```
 
 
@@ -16,7 +16,7 @@ DocumentRoot "/Users/RCline-MRPro/Sites"
 #
 #<Directory "/Library/WebServer/Documents">
 # TODO(rcline):
-<Directory "/Users/RCline-MRPro/Sites">
+<Directory "/Users/RCline/Sites">
     #
     # Possible values for the Options directive are "None", "All",
     # or any combination of:
@@ -65,7 +65,7 @@ DocumentRoot "/Users/RCline-MRPro/Sites"
     # Example:
     # Alias /webpath /full/filesystem/path
     # TODO(rcline):
-    #Alias /~RCline /Users/RCline-MRPro/Sites
+    #Alias /~RCline /Users/RCline/Sites
 
     #
     # If you include a trailing / on /webpath then the server will
