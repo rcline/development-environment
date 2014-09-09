@@ -31,7 +31,7 @@ MANPATH=/usr/local/share/man:$MANPATH
 ################################################################################
 
 function powerline_precmd() {
-  export PS1="$(/Users/RCline-MRPro/Sites/powerline-shell/powerline-shell.py $? --shell zsh 2> /dev/null)"
+  export PS1="$(/Users/RCline-MRPro/Sites/powerline-shell/powerline-shell.py --mode compatible $? --shell zsh 2> /dev/null)"
 }
 
 function install_powerline_precmd() {
