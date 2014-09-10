@@ -62,6 +62,7 @@ Steps 1-4: https://github.com/wilmoore/system
 % brew install phantomjs
 % brew install python
 % brew install chruby ruby-install
+brew install imagemagick
 ```
 
 ### Ruby
