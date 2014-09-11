@@ -79,6 +79,7 @@ brew install imagemagick
 
 ### TODO:
 zsh:
+- brew install zsh
 - zprezto
 - powerline zsh
 - tmux
