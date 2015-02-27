@@ -74,6 +74,7 @@ Steps 1-4: https://github.com/wilmoore/system
 % ruby-install ruby
 % gem install compass
 % gem install scss-lint
+% gem install ppjson
 ```
 
 ### Grunt CLI
