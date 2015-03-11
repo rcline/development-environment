@@ -70,17 +70,10 @@ Steps 1-4: https://github.com/wilmoore/system
 % brew install mongodb
 ```
 
-### Ruby
+### Npm
 ```
-% ruby-install ruby
-% gem install compass
-% gem install scss-lint
-% gem install ppjson
-```
-
-### Grunt CLI
-```
-% npm install --global grunt-cli
+% npm install -g grunt-cli
+% npm install express
 ```
 
 ### Mongo
@@ -88,6 +81,14 @@ Steps 1-4: https://github.com/wilmoore/system
 % brew install mongodb
 % mkdir -p /data/db
 mongod
+```
+
+### Ruby
+```
+% ruby-install ruby
+% gem install compass
+% gem install scss-lint
+% gem install ppjson
 ```
 
 ### TODO:
