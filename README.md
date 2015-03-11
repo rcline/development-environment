@@ -74,13 +74,14 @@ Steps 1-4: https://github.com/wilmoore/system
 ```
 % npm install -g grunt-cli
 % npm install -g express
+% npm install -g bower
 ```
 
 ### Mongo
 ```
 % brew install mongodb
 % mkdir -p /data/db
-mongod
+% mongod
 ```
 
 ### Ruby
