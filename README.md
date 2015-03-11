@@ -73,7 +73,7 @@ Steps 1-4: https://github.com/wilmoore/system
 ### Npm
 ```
 % npm install -g grunt-cli
-% npm install express
+% npm install -g express
 ```
 
 ### Mongo
