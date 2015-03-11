@@ -67,6 +67,7 @@ Steps 1-4: https://github.com/wilmoore/system
 % brew install python
 % brew install chruby ruby-install
 % brew install imagemagick
+% brew install mongodb
 ```
 
 ### Ruby
@@ -80,6 +81,13 @@ Steps 1-4: https://github.com/wilmoore/system
 ### Grunt CLI
 ```
 % npm install --global grunt-cli
+```
+
+### Mongo
+```
+% brew install mongodb
+% mkdir -p /data/db
+mongod
 ```
 
 ### TODO:
