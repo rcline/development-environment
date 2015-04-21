@@ -32,6 +32,12 @@
 	la = !git lba --all
 	ln = !git la --max-count
 	l = !git ln 10
+	
+	gb = branch -aq | grep 
+	co = checkout `git branch | grep 
+	cob = checkout -b `git branch | grep 
+	
+	alias = config --get-regexp alias
 
 [color]
 	ui = auto
