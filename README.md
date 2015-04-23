@@ -75,6 +75,7 @@ Steps 1-4: https://github.com/wilmoore/system
 % npm install -g grunt-cli
 % npm install -g express
 % npm install -g bower
+% npm install -g underscore-cli
 ```
 
 ### Mongo
@@ -89,7 +90,7 @@ Steps 1-4: https://github.com/wilmoore/system
 % ruby-install ruby
 % gem install compass
 % gem install scss-lint
-% gem install ppjson
+% -gem install ppjson- # replaced with underscore
 ```
 
 ### TODO:
