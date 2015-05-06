@@ -70,6 +70,9 @@ Steps 1-4: https://github.com/wilmoore/system
 % brew install mongodb
 ```
 
+### nvm
+https://github.com/brock/node-reinstall
+
 ### Npm
 ```
 % npm install -g grunt-cli
