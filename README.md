@@ -62,11 +62,11 @@ Steps 1-4: https://github.com/wilmoore/system
 
 ### Brew Install
 ```
-% brew install npm
 % brew install python
 % brew install chruby ruby-install
 % brew install imagemagick
 % brew install mongodb
+% brew install npm # nvm instead?
 ```
 
 ### nvm
