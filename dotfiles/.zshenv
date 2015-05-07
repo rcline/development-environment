@@ -7,6 +7,21 @@ MANPATH=/usr/local/share/man:$MANPATH
 
 
 ################################################################################
+# aliases
+################################################################################
+
+alias openskyuisp='open -a /Applications/Google\ Chrome\ Canary.app --args --disable-web-security -url "http://rcline/skyuisp/dest/html/?mac=001BD77F43FF&config=config-dev-stable.js&dvr=true"'
+
+alias oskyuispchromium='open -a /Applications/Chromium.app --args --disable-web-security -url "http://rcline/skyuisp/dest/html/?mac=001BD77F43FF&config=config-dev-stable.js&dvr=true"'
+
+alias blizz='open -a /Applications/Games/Battle.net.app'
+
+alias evernote='open -a /Applications/Evernote.app'
+
+alias upstreambranchcount='find .git/refs/remotes/upstream/ -type f -print | wc -l'
+
+
+################################################################################
 # bash prompt
 ################################################################################
 
