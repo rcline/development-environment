@@ -1,5 +1,7 @@
 ## Settings and Preferences
 
+### Check Clock Timezone
+
 ### System Preferences
 
 ###### Keyboard 
