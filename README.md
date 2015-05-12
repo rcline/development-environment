@@ -4,6 +4,9 @@
 
 ###### Keyboard 
 - F keys
+- 
+###### Sound
+- Show sound in menu bar
 
 ### Finder
 
