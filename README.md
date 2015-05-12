@@ -52,6 +52,7 @@ killall Dock
 - TextMate
 - Evernote
 - Skype
+- Java https://www.java.com/en/
 
 
 ### XCode and HomeBrew
