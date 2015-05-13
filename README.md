@@ -77,6 +77,8 @@ Steps 1-4: https://github.com/wilmoore/system
 ```
 % brew install chruby ruby-install
 % ruby-install ruby
+% gem install compass
+% gem install scss-lint
 % source $(brew --prefix chruby)/share/chruby/chruby.sh
 % chruby 2
 ```
@@ -104,14 +106,6 @@ https://github.com/brock/node-reinstall
 % brew install mongodb
 % mkdir -p /data/db
 % mongod
-```
-
-### Ruby
-```
-% ruby-install ruby
-% gem install compass
-% gem install scss-lint
-% -gem install ppjson- # replaced with underscore
 ```
 
 ### TODO:
