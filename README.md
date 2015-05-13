@@ -69,14 +69,27 @@ Steps 1-4: https://github.com/wilmoore/system
 ### Brew Install
 ```
 % brew install python
-% brew install chruby ruby-install
 % brew install imagemagick
 % brew install mongodb
-% brew install npm # nvm instead?
+```
+
+### Ruby
+```
+% brew install chruby ruby-install
+% ruby-install ruby
+% source $(brew --prefix chruby)/share/chruby/chruby.sh
+% chruby 2
 ```
 
 ### nvm
 https://github.com/brock/node-reinstall
+```
+% brew install nvm
+% nvm use stable
+% nvm install stable
+% npm -v
+% node -v
+```
 
 ### Npm
 ```
