@@ -101,6 +101,14 @@ https://github.com/brock/node-reinstall
 % npm install -g underscore-cli
 ```
 
+### Shell
+```
+% brew install zsh
+```
+
+### Powerline
+https://github.com/milkbikis/powerline-shell
+
 ### Mongo
 ```
 % brew install mongodb
@@ -108,9 +116,3 @@ https://github.com/brock/node-reinstall
 % mongod
 ```
 
-### TODO:
-zsh:
-- brew install zsh
-- zprezto
-- powerline zsh
-- tmux
