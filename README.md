@@ -84,11 +84,13 @@ Steps 1-4: https://github.com/wilmoore/system
 ```
 
 ### nvm
-https://github.com/brock/node-reinstall
+nvm docs: https://github.com/creationix/nvm
+removing node: https://github.com/brock/node-reinstall
 ```
 % brew install nvm
-% nvm use stable
 % nvm install stable
+% nvm install iojs
+% nvm use stable
 % npm -v
 % node -v
 ```
