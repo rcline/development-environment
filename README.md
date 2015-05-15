@@ -88,6 +88,7 @@ nvm docs: https://github.com/creationix/nvm
 removing node: https://github.com/brock/node-reinstall
 ```
 % brew install nvm
+% source $(brew --prefix nvm)/nvm.sh
 % nvm install stable
 % nvm install iojs
 % nvm use stable
