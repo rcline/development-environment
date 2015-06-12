@@ -71,6 +71,7 @@ Steps 1-4: https://github.com/wilmoore/system
 % brew install python
 % brew install imagemagick
 % brew install mongodb
+% brew install hub
 ```
 
 ### Ruby
