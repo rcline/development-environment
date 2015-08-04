@@ -103,6 +103,7 @@ removing node: https://github.com/brock/node-reinstall
 % npm install -g express
 % npm install -g bower
 % npm install -g underscore-cli
+% npm install -g nodemon
 ```
 
 ### Shell
