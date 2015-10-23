@@ -104,6 +104,7 @@ removing node: https://github.com/brock/node-reinstall
 % npm install -g bower
 % npm install -g underscore-cli
 % npm install -g nodemon
+% npm install -g bunyan
 ```
 
 ### Shell
