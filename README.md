@@ -94,6 +94,7 @@ removing node: https://github.com/brock/node-reinstall
 % npm install -g underscore-cli
 % npm install -g nodemon
 % npm install -g bunyan
+% npm install -g http-server
 ```
 
 ### Shell
