@@ -10,35 +10,29 @@ MANPATH=/usr/local/share/man:$MANPATH
 # aliases
 ################################################################################
 
-alias openskyuisp='open -a /Applications/Google\ Chrome\ Canary.app --args --disable-web-security -url "http://rcline/skyuisp/dest/html/?mac=001BD77F43FF&config=config-dev-stable.js&dvr=true"'
-
-alias oskyuispchromium='open -a /Applications/Chromium.app --args --disable-web-security -url "http://rcline/skyuisp/dest/html/?mac=001BD77F43FF&config=config-dev-stable.js&dvr=true"'
+alias opennocors='open -a /Applications/Google\ Chrome\ Canary.app --args --disable-web-security -url "http://www.google.com"'
 
 alias blizz='open -a /Applications/Games/Battle.net.app'
 
 alias evernote='open -a /Applications/Evernote.app'
 
-alias upstreambranchcount='find .git/refs/remotes/upstream/ -type f -print | wc -l'
+alias upstreambranchcount='find .the/refs/remotes/upstream/ -type f -print | wc -l'
 
+alias hangout='open http://g.co/hangout'
 
-################################################################################
-# bash prompt
-################################################################################
+alias present='open http://g.co/present'
 
-#function parse_git_dirty {
-#  [[ $(git status 2> /dev/null | tail -n1) != "nothing to commit (working directory clean)" ]] && echo "*"
-#}
-#function parse_git_branch {
-#  ref = git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/ (\1$(parse_git_dirty))/"
-#  echo $ref
-#}
+alias _json='underscore print —color'
 
-#RED="\[\033[0;31m\]"
-#YELLOW="\[\033[0;33m\]"
-#GREEN="\[\033[0;32m\]"
-#NO_COLOUR="\[\033[0m\]"
+alias n-v='n ls | grep ο'
 
-#export PS1="$GREEN\u@\h$NO_COLOUR:\w$YELLOW\$(parse_git_branch)$NO_COLOUR\$ "
+alias npmrmi='rm -rf node_modules && npm cache clean && npm install'
+
+alias yar='yarn'
+alias yarh='yarn'
+alias yanr='yarn'
+alias gi='git'
+alias got='git'
 
 
 ################################################################################
@@ -46,7 +40,7 @@ alias upstreambranchcount='find .git/refs/remotes/upstream/ -type f -print | wc 
 ################################################################################
 
 function powerline_precmd() {
-  export PS1="$(/Users/RCline-MRPro/Sites/powerline-shell/powerline-shell.py --mode compatible $? --shell zsh 2> /dev/null)"
+  export PS1="$(/Users/rcline/Sites/powerline-shell/powerline-shell.py --mode compatible $? --shell zsh 2> /dev/null)"
 }
 
 function install_powerline_precmd() {
@@ -72,6 +66,7 @@ typeset -gU cdpath fpath mailpath path
 #
 
 path=(
+  $HOME/local/bin
   /usr/local/{bin,sbin}      # obviously :)
   /usr/libexec               # lots of non-obvious goodies in here (i.e. PlistBuddy)
   $HOME/.homebrew/{bin,sbin} # homebrew@$HOME
@@ -121,12 +116,23 @@ fi
 
 # USER SETUP
 export GIT_COMMITTER_NAME="Ryan Cline"
-export GIT_COMMITTER_EMAIL="ryan.cline@twcable.com"
+export GIT_COMMITTER_EMAIL="cline.ryan@gmail.com"
 export GIT_AUTHOR_NAME="Ryan Cline"
-export GIT_AUTHOR_EMAIL="ryan.cline@twcable.com"
+export GIT_AUTHOR_EMAIL="cline.ryan@gmail.com"
 
 # github
 export GITHUB_USER='rcline'
+
+
+################################################################################
+# npm
+################################################################################
+
+export JOBS=max
+
+# n
+# Added by n-install (see http://git.io/n-install-repo).
+export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"
 
 
 ################################################################################
