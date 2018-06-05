@@ -27,20 +27,32 @@
 	dump = cat-file -p
 
 	lba = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	lbafp = !git lba --first-parent
 	lbn = !git lba --max-count
 	lb = !git lbn 10
+	lbfp = !git lb --first-parent
 	la = !git lba --all
 	ln = !git la --max-count
 	l = !git ln 10
+
+	f = fetch --multiple upstream swat rcline
+	amend = commit -a --amend --no-edit
+
+	force = push --force-with-lease
 	
-	gb = branch -aq | grep 
-	co = checkout `git branch | grep 
-	cob = checkout -b `git branch | grep 
-	
+	c = commit
+	co = checkout
+	cob = !git co -b
+	cot = !git co -t
+
 	alias = config --get-regexp alias
 
 [color]
 	ui = auto
+
+[remote "upstream"]
+	fetch = +refs/heads/*:refs/remotes/upstream/*
+	fetch = +refs/pull/*/head:refs/remotes/upstream/pr/*
 
 [rerere]
 	enabled = false
