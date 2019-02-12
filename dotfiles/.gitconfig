@@ -37,8 +37,6 @@
 
 	f = fetch --multiple upstream swat rcline
 	amend = commit -a --amend --no-edit
-
-	force = push --force-with-lease
 	
 	c = commit
 	co = checkout
@@ -46,6 +44,8 @@
 	cot = !git co -t
 
 	alias = config --get-regexp alias
+
+	force = push --force-with-lease
 
 [color]
 	ui = auto
