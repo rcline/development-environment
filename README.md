@@ -63,8 +63,9 @@ killall Dock
   - Safari
 - IntelliJ
 - Slack
-- SourceTree
+- SourceTree/GitHub Desktop
 - Evernote
+- Spectacle
 - Java https://www.java.com/en/
 
 
@@ -75,9 +76,6 @@ Steps 1-4: https://github.com/wilmoore/system
 - Create folder `Sites` in home directory for server
 - Clone this repo
 - Copy over [dotfiles](https://github.com/rcline/development-environment/tree/master/dotfiles)
-- Copy Apache [httpd.conf.md](https://github.com/rcline/development-environment/blob/master/apache/httpd.conf.md) code into /etc/apache2/httpd.conf
-- Copy [hosts](https://github.com/rcline/development-environment/blob/master/apache/hosts) file into /etc/hosts
-- restart apache `sudo /usr/sbin/apachectl restart`
 
 ### Brew Install
 ```
