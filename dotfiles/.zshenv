@@ -5,6 +5,8 @@
 # base
 MANPATH=/usr/local/share/man:$MANPATH
 
+HISTFILESIZE=10000000
+
 
 ################################################################################
 # aliases
