@@ -7,20 +7,10 @@
 
 [github]
 
-[gh]
-
 [core]
-	excludesfile = /Users/RCline-MRPro/.gitignore_global
+	excludesfile = /Users/rcline/.gitignore_global
 	editor = vim
 	ignorecase = false
-
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
 
 [alias]
 	type = cat-file -t
@@ -35,8 +25,10 @@
 	ln = !git la --max-count
 	l = !git ln 10
 
-	f = fetch --multiple upstream swat rcline
+	f = fetch --multiple upstream rcline
 	amend = commit -a --amend --no-edit
+
+	force = push --force-with-lease
 	
 	c = commit
 	co = checkout
@@ -45,8 +37,6 @@
 
 	alias = config --get-regexp alias
 
-	force = push --force-with-lease
-
 [color]
 	ui = auto
 
@@ -54,14 +44,8 @@
 	fetch = +refs/heads/*:refs/remotes/upstream/*
 	fetch = +refs/pull/*/head:refs/remotes/upstream/pr/*
 
-[rerere]
-	enabled = false
-
-[branch]
-	autosetuprebase = always
-
 [help]
-   # autoCorrect = true
+   autoCorrect = true
 
 [grep]
-   # lineNumbers = true
+   lineNumbers = true
