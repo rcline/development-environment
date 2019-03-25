@@ -71,31 +71,18 @@ killall Dock
 - Java https://www.java.com/en/
 
 
-### XCode and HomeBrew
-Steps 1-4: https://github.com/wilmoore/system
+### XCode
+```
+xcode-select --install
+```
+
+### HomeBrew
+- https://brew.sh/
 
 ### dotfiles
 - Create folder `Sites` in home directory for server
 - Clone this repo
 - Copy over [dotfiles](https://github.com/rcline/development-environment/tree/master/dotfiles)
-
-### Brew Install
-```
-% brew install python
-% brew install imagemagick
-% brew install mongodb
-% brew install hub
-```
-
-### Ruby
-```
-% brew install chruby ruby-install
-% ruby-install ruby
-% gem install compass
-% gem install scss-lint
-% source $(brew --prefix chruby)/share/chruby/chruby.sh
-% chruby 2
-```
 
 ### Npm
 removing node: https://github.com/brock/node-reinstall
