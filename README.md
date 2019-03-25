@@ -66,6 +66,8 @@ killall Dock
 - SourceTree/GitHub Desktop
 - Evernote
 - Spectacle
+  - Preferences
+    - Login at startup
 - Java https://www.java.com/en/
 
 
