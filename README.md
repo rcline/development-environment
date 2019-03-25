@@ -4,8 +4,20 @@
 
 ### System Preferences
 
+###### General
+- Show scroll bars: always
+- Automatically hide and show the menu bar: false
+- Click in the scroll bar to: Jump to the spot that's clicked
+
+###### Dock
+- Magnification: off
+- Position: right
+- Show recent applications in Dock: false
+
 ###### Keyboard 
 - F keys
+- Modifier keys (for external keyboard)
+- Remove all auto text corrections
 
 ###### Sound
 - Show sound in menu bar
