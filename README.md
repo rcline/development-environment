@@ -69,6 +69,7 @@ killall Dock
   - Preferences
     - Login at startup
 - Java https://www.java.com/en/
+- iTerm
 
 
 ### XCode
