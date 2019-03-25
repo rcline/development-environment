@@ -73,6 +73,7 @@ killall Dock
 
 
 ### XCode
+(This also installs git.)
 ```
 xcode-select --install
 ```
@@ -96,16 +97,6 @@ removing node: https://github.com/brock/node-reinstall
 % npm install -g nodemon
 % npm install -g bunyan
 % npm install -g http-server
-```
-
-### Git
-Adding PR fetching
-<project-root>/.git/config
-```
-[remote "upstream"]
-	url = git@github.com:<org>/<repo>.git
-	fetch = +refs/heads/*:refs/remotes/upstream/*
-	fetch = +refs/pull/*/head:refs/remotes/upstream/pr/*
 ```
 
 ### Shell
