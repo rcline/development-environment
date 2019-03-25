@@ -2,6 +2,8 @@
 
 ### Check Clock Timezone
 
+### Check For OS Updates
+
 ### System Preferences
 
 ###### General
@@ -30,6 +32,8 @@
 - Sidebar
   + uncheck All My Files
   + check MB User Home and Root
+- Advanced
+  + Show all filename extensions
 
 ###### View
 - Show Tab Bar
@@ -52,18 +56,15 @@ killall Dock
 
 ### Applications
 - Browsers
-- Chrome
-- Canary
-- Firefox
-- Opera
-- Safari
+  - Chrome
+  - Chrome Canary
+  - Firefox
+  - Opera
+  - Safari
 - IntelliJ
-- Skype
-- JoinMe
+- Slack
 - SourceTree
-- TextMate
 - Evernote
-- Skype
 - Java https://www.java.com/en/
 
 
