@@ -80,6 +80,9 @@ xcode-select --install
 
 ### HomeBrew
 - https://brew.sh/
+```
+% brew install node
+```
 
 ### ZShell
 - Setup: https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH
@@ -97,27 +100,10 @@ xcode-select --install
 removing node: https://github.com/brock/node-reinstall
 ```
 % npm install -g n
-% npm install -g grunt-cli
-% npm install -g express
-% npm install -g bower
 % npm install -g underscore-cli
-% npm install -g nodemon
 % npm install -g bunyan
 % npm install -g http-server
 ```
 
-### Shell
-```
-% brew install zsh
-```
 
-### Powerline
-https://github.com/milkbikis/powerline-shell
-
-### Mongo
-```
-% brew install mongodb
-% mkdir -p /data/db
-% mongod
-```
 
