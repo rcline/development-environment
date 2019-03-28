@@ -96,11 +96,13 @@ xcode-select --install
 - Clone this repo
 - Copy over [dotfiles](https://github.com/rcline/development-environment/tree/master/dotfiles)
 
+### Node
+First time install node directly (after that use `n`): https://nodejs.org/en/
+
 ### Npm
 removing node: https://github.com/brock/node-reinstall
 ```
 % npm install -g n
-% npm install -g underscore-cli
 % npm install -g bunyan
 % npm install -g http-server
 ```
