@@ -85,7 +85,7 @@ xcode-select --install
 - Setup: https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH
 - oh-my-zsh: https://ohmyz.sh/
 - Theme: https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions
-  - Fonts: https://gist.github.com/kevin-smets/8568070
+- Fonts and customizations: https://gist.github.com/kevin-smets/8568070
 
 
 ### dotfiles
