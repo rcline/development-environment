@@ -104,6 +104,9 @@ removing node: https://github.com/brock/node-reinstall
 % npm install -g bunyan
 % npm install -g http-server
 ```
-
+Setup `n` permissions: https://github.com/tj/n/issues/416#issuecomment-417808320
+```
+% n lts
+```
 
 
