@@ -11,6 +11,7 @@
 	excludesfile = /Users/rcline/.gitignore_global
 	editor = vim
 	ignorecase = false
+	pager = 
 
 [alias]
 	type = cat-file -t
