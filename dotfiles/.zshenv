@@ -1,12 +1,39 @@
+# oh-my-zsh configs at top
+# ...
+
+
 ################################################################################
-# misc
+# User configuration
 ################################################################################
 
-# base
-MANPATH=/usr/local/share/man:$MANPATH
+export LESS=-XFR
 
-HISTFILESIZE=10000000
+# export MANPATH="/usr/local/man:$MANPATH"
 
+# You may need to manually set your language environment
+# export LANG=en_US.UTF-8
+
+# Preferred editor for local and remote sessions
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='mvim'
+# fi
+
+# Compilation flags
+# export ARCHFLAGS="-arch x86_64"
+
+# ssh
+# export SSH_KEY_PATH="~/.ssh/rsa_id"
+
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
 
 ################################################################################
 # aliases
@@ -36,80 +63,29 @@ alias yanr='yarn'
 alias gi='git'
 alias got='git'
 
-
-################################################################################
-# powerline-shell
-################################################################################
-
-function powerline_precmd() {
-  export PS1="$(/Users/rcline/Sites/powerline-shell/powerline-shell.py --mode compatible $? --shell zsh 2> /dev/null)"
-}
-
-function install_powerline_precmd() {
-  for s in "${precmd_functions[@]}"; do
-    if [ "$s" = "powerline_precmd" ]; then
-      return
-    fi
-  done
-  precmd_functions+=(powerline_precmd)
-}
-
-install_powerline_precmd
+alias setuprepo='node ~/Sites/scripts/setup-git-repo.js'
 
 
 ################################################################################
-# program search path
+# Theme
 ################################################################################
 
-typeset -gU cdpath fpath mailpath path
+# https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions
+source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
+ZSH_THEME="powerlevel9k/powerlevel9k"
 
-#
-# paths searched for programs
-#
+# Remove user prompt
+DEFAULT_USER=rcline
 
-path=(
-  $HOME/local/bin
-  /usr/local/{bin,sbin}      # obviously :)
-  /usr/libexec               # lots of non-obvious goodies in here (i.e. PlistBuddy)
-  $HOME/.homebrew/{bin,sbin} # homebrew@$HOME
-  $path                      # system defaults
-)
+# Syntax highlighting
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
 ################################################################################
-# homebrew
+# Auto suggestions
 ################################################################################
 
-#
-# brew cask options
-#
-
-# ensure homebrew cask links applications into `/Applications` (I like to see everything in one place)
-# obviously you would not do this on a multi-user system as this could cause confusion.
-export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-
-#
-# man page search paths
-#
-
-# homebrew
-MANPATH=$HOME/.homebrew/share/man:$MANPATH
-
-
-################################################################################
-# terminal
-################################################################################
-
-export TERM=xterm-256color
-
-
-################################################################################
-# language
-################################################################################
-
-if [[ -z "$LANG" ]]; then
-  export LANG='en_US.UTF-8'
-fi
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 
 ################################################################################
@@ -118,9 +94,9 @@ fi
 
 # USER SETUP
 export GIT_COMMITTER_NAME="Ryan Cline"
-export GIT_COMMITTER_EMAIL="cline.ryan@gmail.com"
+export GIT_COMMITTER_EMAIL="rcline@shutterstock.com"
 export GIT_AUTHOR_NAME="Ryan Cline"
-export GIT_AUTHOR_EMAIL="cline.ryan@gmail.com"
+export GIT_AUTHOR_EMAIL="rcline@shutterstock.com"
 
 # github
 export GITHUB_USER='rcline'
@@ -131,16 +107,3 @@ export GITHUB_USER='rcline'
 ################################################################################
 
 export JOBS=max
-
-# n
-# Added by n-install (see http://git.io/n-install-repo).
-export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"
-
-
-################################################################################
-# chruby
-################################################################################
-
-source $(brew --prefix chruby)/share/chruby/chruby.sh
-chruby 2
-
