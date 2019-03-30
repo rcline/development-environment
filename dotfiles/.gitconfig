@@ -29,11 +29,13 @@
 	amend = commit -a --amend --no-edit
 
 	force = push --force-with-lease
-	
+
+	b = branch
 	c = commit
 	co = checkout
 	cob = !git co -b
 	cot = !git co -t
+	mm = merge upstream/master
 
 	alias = config --get-regexp alias
 
@@ -45,7 +47,13 @@
 	fetch = +refs/pull/*/head:refs/remotes/upstream/pr/*
 
 [help]
-   autoCorrect = true
+	autoCorrect = true
 
 [grep]
-   lineNumbers = true
+	lineNumbers = true
+
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
