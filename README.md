@@ -83,6 +83,10 @@ xcode-select --install
 ```
 % brew install node
 ```
+yarn: https://stackoverflow.com/questions/44448084/how-do-i-change-the-version-of-yarn-used/53678671
+```
+% brew install yarn
+```
 
 ### ZShell
 - Setup: https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH
