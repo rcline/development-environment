@@ -101,8 +101,6 @@ yarn: https://stackoverflow.com/questions/44448084/how-do-i-change-the-version-o
 - Clone this repo
 - Copy over [dotfiles](https://github.com/rcline/development-environment/tree/master/dotfiles)
 
-### Node
-First time install node directly (after that use `n`): https://nodejs.org/en/
 
 ### Npm
 removing node: https://github.com/brock/node-reinstall
