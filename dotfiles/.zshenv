@@ -6,6 +6,8 @@
 # User configuration
 ################################################################################
 
+HISTFILESIZE=10000000
+
 export LESS=-XFR
 
 # export MANPATH="/usr/local/man:$MANPATH"
