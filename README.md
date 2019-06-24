@@ -20,6 +20,8 @@
 - F keys
 - Modifier keys (for external keyboard)
 - Remove all auto text corrections
+- Key repeat: fast
+- Delay till repeat: short
 
 ###### Mouse
 See [image](https://github.com/rcline/development-environment/blob/master/Screen%20Shot%202019-04-04%20at%2012.27.48%20PM.png)
