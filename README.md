@@ -77,6 +77,7 @@ killall Dock
 ```
 xcode-select --install
 ```
+First click "Get XCode" button, then after downloading and installing from apple store, run the above command again and click "Install".
 
 ### HomeBrew
 - https://brew.sh/
