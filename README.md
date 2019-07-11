@@ -131,5 +131,5 @@ Setup `n` permissions: https://github.com/tj/n/issues/416#issuecomment-417808320
 % choco install git
 ```
 
-### ZShell
+### ~ZShell~ Use Powershell
 - Setup: https://evdokimovm.github.io/windows/zsh/shell/syntax/highlighting/ohmyzsh/hyper/terminal/2017/02/24/how-to-install-zsh-and-oh-my-zsh-on-windows-10.html
