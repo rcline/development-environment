@@ -30,6 +30,7 @@
 
 	force = push --force-with-lease
 
+	st = !git lb && git status
 	b = branch
 	c = commit
 	co = checkout
