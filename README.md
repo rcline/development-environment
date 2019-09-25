@@ -101,7 +101,8 @@ yarn: https://stackoverflow.com/questions/44448084/how-do-i-change-the-version-o
 - oh-my-zsh: https://ohmyz.sh/
 - Theme: https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions
 - Fonts and customizations: https://gist.github.com/kevin-smets/8568070
-
+- Git completion: https://www.dropbox.com/s/s6mzj1phihljfuu/git-completion.bash?dl=0
+  - copy the file to `~` then add this to your `.bash_profile` - `source ~/git-completion.bash`
 
 ### dotfiles
 - Create folder `Sites` in home directory for server
