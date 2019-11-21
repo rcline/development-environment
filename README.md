@@ -140,3 +140,9 @@ Get-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Enum\HID\*\*\Device` Parameters 
 
 ### ~ZShell~ Use Powershell
 - Setup: https://evdokimovm.github.io/windows/zsh/shell/syntax/highlighting/ohmyzsh/hyper/terminal/2017/02/24/how-to-install-zsh-and-oh-my-zsh-on-windows-10.html
+
+### Setup
+
+```
+net use Z: "\\Mac\Home\" /persistent:yes
+```
