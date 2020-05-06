@@ -68,15 +68,18 @@ killall Dock
   - Firefox
   - Opera
   - Safari
+  - Brave
 - IntelliJ
+- Visual Studio Code
 - Slack
 - SourceTree/GitHub Desktop
 - Evernote
 - Spectacle
   - Preferences
     - Login at startup
-- Java https://www.java.com/en/
-- iTerm
+- iTerm2
+- Docker
+- Jolt
 
 
 ### XCode
@@ -138,8 +141,7 @@ Get-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Enum\HID\*\*\Device` Parameters 
 % choco install git
 ```
 
-### ~ZShell~ Use Powershell
-- Setup: https://evdokimovm.github.io/windows/zsh/shell/syntax/highlighting/ohmyzsh/hyper/terminal/2017/02/24/how-to-install-zsh-and-oh-my-zsh-on-windows-10.html
+### cmdr
 
 ### Setup
 
