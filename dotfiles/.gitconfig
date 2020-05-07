@@ -30,13 +30,16 @@
 
 	force = push --force-with-lease
 
-	st = !git lb && git status
+	r = remote
 	b = branch
 	c = commit
 	co = checkout
 	cob = !git co -b
 	cot = !git co -t
 	mm = merge upstream/master
+	rbm = rebase upstream/master
+
+	st = !git lb && git status
 
 	alias = config --get-regexp alias
 
