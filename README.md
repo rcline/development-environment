@@ -128,7 +128,7 @@ Setup `n` permissions: https://github.com/tj/n/issues/416#issuecomment-417808320
 
 # Windows
 
-### Mosue Scrolling
+### Mouse Scrolling
 Open PowerShell as administrator
 ```
 Get-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Enum\HID\*\*\Device` Parameters FlipFlopWheel -EA 0 | ForEach-Object { Set-ItemProperty $_.PSPath FlipFlopWheel 1 }
