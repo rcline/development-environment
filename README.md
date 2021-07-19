@@ -81,6 +81,9 @@ killall Dock
 - Docker
 - Jolt
 
+### Spotlight
+
+Privacy -> add repos to search ignore list
 
 ### XCode
 (This also installs git.)
