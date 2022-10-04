@@ -29,7 +29,8 @@
 See [image](https://github.com/rcline/development-environment/blob/master/Screen%20Shot%202019-04-04%20at%2012.27.48%20PM.png)
 
 ###### Sound
-- Show sound in menu bar
+- Show sound in menu bar - always
+- Play sound on startup - false
 
 ### Finder
 
