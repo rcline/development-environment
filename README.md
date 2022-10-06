@@ -108,9 +108,9 @@ yarn: https://stackoverflow.com/questions/44448084/how-do-i-change-the-version-o
 ```
 
 ### ZShell
-- Setup: https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH
-- oh-my-zsh: https://ohmyz.sh/
-- Theme: https://github.com/romkatv/powerlevel10k#installation (do manual)
+- Install zsh: https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH
+- Install oh-my-zsh: https://ohmyz.sh/
+- Install theme: https://github.com/romkatv/powerlevel10k#installation (do manual)
 - Git completion: https://www.dropbox.com/s/s6mzj1phihljfuu/git-completion.bash?dl=0
   - copy the file to `~` then add this to your `.bash_profile` - `source ~/git-completion.bash`
 
