@@ -114,8 +114,7 @@ yarn: https://stackoverflow.com/questions/44448084/how-do-i-change-the-version-o
 - Plugin Autosuggestions: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
 - Plugin Syntax Highlighting: https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh
 - Iterm2 Profile Config:
-  - https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x
-  - https://stackoverflow.com/questions/6205157/how-to-set-keyboard-shortcuts-to-jump-to-beginning-end-of-line
+  - https://stackoverflow.com/questions/42735929/how-to-delete-a-word-in-iterm-in-mac-os
 
 ### dotfiles
 - Create folder `Sites` in home directory for server
