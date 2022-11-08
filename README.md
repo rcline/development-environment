@@ -135,6 +135,9 @@ Setup `n` permissions: https://github.com/tj/n/issues/416#issuecomment-417808320
 % n lts
 ```
 
+### Tools
+
+https://stedolan.github.io/jq/  jq is a lightweight and flexible command-line JSON processor
 
 # Windows
 
