@@ -73,6 +73,7 @@ killall Dock
 - IntelliJ
 - Visual Studio Code
 - Slack
+  - Chrome extension: `Neutral Face Emoji Tools`
 - SourceTree/GitHub Desktop
 - Evernote
 - Spectacle
