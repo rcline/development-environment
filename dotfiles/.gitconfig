@@ -69,3 +69,4 @@
 
 [pager]
 	branch = false
+	log = false
