@@ -28,6 +28,7 @@
 	f = fetch --multiple upstream rcline
 	amend = commit -a --amend --no-edit
 
+	up = push upstream
 	force = push --force-with-lease
 
 	r = remote
@@ -37,9 +38,12 @@
 	cob = !git co -b
 	cot = !git co -t
 	mm = merge upstream/master
+	mt = merge upstream/trunk
 	rbm = rebase upstream/master
+	rbt = rebase upstream/trunk
+	brt = !git rbt
 
-	st = !git lb && git status
+	st = !git status && git lb
 
 	alias = config --get-regexp alias
 
@@ -49,6 +53,7 @@
 [remote "upstream"]
 	fetch = +refs/heads/*:refs/remotes/upstream/*
 	fetch = +refs/pull/*/head:refs/remotes/upstream/pr/*
+	fetch = +refs/merge-requests/*/head:refs/remotes/upstream/mr/*
 
 [help]
 	autoCorrect = true
@@ -61,3 +66,6 @@
 	process = git-lfs filter-process
 	required = true
 	clean = git-lfs clean -- %f
+
+[pager]
+	branch = false
