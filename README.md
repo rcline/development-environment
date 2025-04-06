@@ -6,6 +6,10 @@
 
 ### Check For OS Updates
 
+### Disable Screenshot Floating Preview
+
+To disable the floating screenshot thumbnail preview on a Mac, open the Screenshot app (or use Cmd+Shift+5), go to "Options," and uncheck "Show Floating Thumbnail".
+
 ### System Preferences
 
 ###### General
