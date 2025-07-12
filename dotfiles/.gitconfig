@@ -45,6 +45,11 @@
 
 	st = !git status && git lb
 
+
+	; Set the e-mail to be used when commiting (per repository)
+	set-email-pillar = config user.email "ryan.cline@pillarapps.com"
+	set-email-personal = config user.email "cline.ryan@gmail.com"
+
 	alias = config --get-regexp alias
 
 [color]
