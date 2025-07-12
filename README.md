@@ -102,6 +102,9 @@ First click "Get XCode" button, then after downloading and installing from apple
 sudo xcodebuild -license accept
 ```
 
+More Git stuff:
+https://github.com/augustoproiete/dotfiles/blob/master/git/.gitconfig-windows-template#L57-L59
+
 ### HomeBrew
 - https://brew.sh/
 ```
